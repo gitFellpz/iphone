@@ -1,0 +1,38 @@
+Para tanto, pesquise sobre o intervalo de valores de cada parâmetro (como umidade do solo, pH, concentração de potássio, etc). Pelo menos três tipos diferentes de medidas devem ser obtidos pelos sensores (na tabela existem apenas dois: umidade e pH).
+--- Pesquisar mais um parâmetro para o sensor verificar no solo
+FEITO
+
+
+NÓ armazena o objeto sensor que tem carscteristicas/atributos
+FEITO
+
+possuir um método que permita selecionar uma coordenada para pesquisar
+na lista de registros, retornando o registro do sensor como resultado do método ou
+sinalização que coordenada não foi encontrada
+--- Ao pesquisar a coordenada, mostrar qual o sensor e suas outras caracteristicas.
+FEITO
+
+Contenha um método que, percorrendo a lista de sensores, se uma determinada
+coordenada tiver mais de 1 parâmetro fora do intervalo adequado, o registro do sensor
+deve ser inserido em uma fila (fila de sensores).
+OU SEJA, se algum atributo de sensores estiver fora dos limites, jogar em uma fila de resgistro de sensores
+
+Possibilidade de incluir outros sensores
+
+
+IDEIA
+Platação de FEIJÃO agricultura familiar por AREAS DE PLANTIO (fazer desenho demostrativo)
+
+https://blog.aegro.com.br/plantacao-de-feijao/#:~:text=A%20densidade%20ideal%20para%20o,a%20300%20mil%20plantas%2Fha.
+
+https://www.embrapa.br/agrossilvipastoril/sitio-tecnologico/trilha-tecnologica/tecnologias/culturas/feijao
+
+TEMPERATURA
+entre 18 e 24ºC
+
+PH
+entre 6 e 7
+
+UMIDADE
+50 a 70%
+
