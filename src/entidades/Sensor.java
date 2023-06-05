@@ -7,14 +7,16 @@ public class Sensor {
 	private int temperatura;
 	private double ph;
 	private int taxa_umidade;
+	private double concentracao_ferro;
 	private String coordenadas;
 	
 	//Construtor
-	public Sensor(int numero_serie, int temperatura, double ph, int taxa_umidade, String coordenadas) {
+	public Sensor(int numero_serie, int temperatura, double ph, int taxa_umidade, double concentracao_ferro, String coordenadas) {
 		this.numero_serie = numero_serie;
 		this.temperatura = temperatura;
 		this.ph = ph;
 		this.taxa_umidade = taxa_umidade;
+		this.concentracao_ferro = concentracao_ferro;
 		this.coordenadas = coordenadas;
 	}
 
@@ -34,7 +36,7 @@ public class Sensor {
 	public double getPh() {
 		return ph;
 	}
-	public void setPh(int ph) {
+	public void setPh(double ph) {
 		this.ph = ph;
 	}
 	public int getTaxa_umidade() {
@@ -43,6 +45,13 @@ public class Sensor {
 	public void setTaxa_umidade(int taxa_umidade) {
 		this.taxa_umidade = taxa_umidade;
 	}
+	public double getConcentracao_ferro() {
+		return concentracao_ferro;
+	}
+	public void setConcentracao_ferro(double concentracao_ferro) {
+		this.concentracao_ferro = concentracao_ferro;
+	}
+	
 	public String getCoordenadas() {
 		return coordenadas;
 	}
@@ -57,7 +66,8 @@ public class Sensor {
 				+"\nTemperatura: " + temperatura 
 				+"\nPH: " + ph
 				+"\nTaxa de umidade: " + taxa_umidade
-				+ "\nCoordenadas: " + coordenadas
-				+ "\n--------------------";
+				+"\nConcentração de ferro: " + concentracao_ferro
+				+"\nCoordenadas: " + coordenadas
+				+"\n--------------------";
 	}	
 }

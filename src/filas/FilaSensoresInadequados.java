@@ -38,4 +38,5 @@ public class FilaSensoresInadequados {
 	public Sensor first() {
 		return (ini.dado);
 	}
+	
 }
