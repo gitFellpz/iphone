@@ -13,14 +13,14 @@ public class Aplicacao {
 		
 		//Criando sensores já presentes no sistema/platação
 		Sensor sensor1 = new Sensor(10, 10, 6, 40, 115.675,"47º55'44''W,21º00'34''S");
-		//Sensor sensor2 = new Sensor(14, 18, 6.5, 40, 209.95, "47º55'42''W,21º00'35''S");
-		//Sensor sensor3 = new Sensor(30, 20, 7.7, 50, 111.758, "47º55'39''W,21º00'37''S");
-		//Sensor sensor4 = new Sensor(78, 25, 7.5, 70, 204.5, "47º55'44''W,21º00'39''S");
+		Sensor sensor2 = new Sensor(14, 18, 6.5, 40, 209.95, "47º55'42''W,21º00'35''S");
+		Sensor sensor3 = new Sensor(30, 20, 7.7, 50, 111.758, "47º55'39''W,21º00'37''S");
+		Sensor sensor4 = new Sensor(78, 25, 7.5, 70, 204.5, "47º55'44''W,21º00'39''S");
 		//Inserindo na lista
-		//lista.insere(sensor4); // 78
+		lista.insere(sensor4); // 78
 		lista.insere(sensor1); // 10
-		//lista.insere(sensor3); // 30
-		//lista.insere(sensor2); // 14
+		lista.insere(sensor3); // 30
+		lista.insere(sensor2); // 14
 		
 		//Variáveis
 		int opc = 0;
